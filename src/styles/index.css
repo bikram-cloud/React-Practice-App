@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.textContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0;
+}
+
+.textContent h1 {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.textContent h1::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -0.5rem;
+  transform: translateX(-50%);
+  width: 7rem;
+  background-color: hsla(61, 90%, 65%, 0.727);
+  height: 0.2rem;
+}
+
+.textContent p {
+  margin-top: 2rem;
+  font-size: 1.2rem;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
