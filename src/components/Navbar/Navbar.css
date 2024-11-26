@@ -11,21 +11,36 @@ nav {
 .appLogo {
   height: 6rem;
   width: 6rem;
+  border-radius: 1rem;
 }
 
 ul {
   color: #fff;
+}
+
+.list {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
 }
 
 ul > div > li {
   list-style: none;
 }
 
+.list > span {
+  font-size: 0.9rem;
+  margin-left: -0.6rem;
+  color: #fff;
+}
+
 .logoContainer {
   display: flex;
+  align-items: center;
   color: #fff;
+  border: 2px solid #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.3rem;
 }
 
 .appLogo1 {
@@ -37,6 +52,26 @@ ul > div > li {
 .contactDetail {
   display: flex;
   flex-direction: column;
-  align-items: center;
   color: #fff;
+}
+
+.location {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.location span {
+  font-size: 0.8rem;
+}
+
+.contract {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding-top: 0.5rem;
+}
+
+.contract span {
+  font-size: 1.2rem;
 }
