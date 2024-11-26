@@ -9,17 +9,23 @@ const Navbar = () => {
     <nav>
       <img src={logo} alt="Logo" className="appLogo" />
       <ul>
-        <div>
-          <li>NEPAL</li> <SlArrowDown />
-        </div>
-        <div>
-          <li>JAPAN</li> <SlArrowDown />
-        </div>
-        <div>
-          <li>USA</li> <SlArrowDown />
-        </div>
-        <div>
-          <li>COMPANY</li>
+        <div className="list">
+          <li>NEPAL</li>{' '}
+          <span>
+            <SlArrowDown />{' '}
+          </span>
+          <li>JAPAN</li>{' '}
+          <span>
+            <SlArrowDown />{' '}
+          </span>
+          <li>USA</li>{' '}
+          <span>
+            <SlArrowDown />{' '}
+          </span>
+          <li>COMPANY</li>{' '}
+          <span>
+            <SlArrowDown />{' '}
+          </span>
         </div>
       </ul>
 
@@ -29,10 +35,15 @@ const Navbar = () => {
       </div>
 
       <div className="contactDetail">
-        <div>Change Location</div> <SlArrowDown />
+        <div className="location">
+          Change Location{' '}
+          <span>
+            <SlArrowDown />{' '}
+          </span>
+        </div>
         <div>
-          <div>
-            <FaPhone /> +020910037
+          <div className="contract">
+            <FaPhone /> <span>+020910037</span>
           </div>
         </div>
       </div>
